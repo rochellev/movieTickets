@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Book Movie Tickets</title>
+    </head>
+    <body>
+      <div class="container">
+        <h1>Welcome to the Online Ticket counter</h1>
+        <br><br>
+        <div class="movie-list">
+          <div class="panel panel-info">
+            <div class="panel-heading">
+              <h2 class="panel-title">NOW PLAYING</h2>
+            </div>
+            <div class="panel-body">
+              <div class="row">
+              <div class="col-md-3">
+                <img src="https://resizing.flixster.com/IaXbRF4gIPh9jireK_4VCPNfdKc=/300x0/v2/https://flxt.tmsimg.com/assets/p16357164_p_v13_ar.jpg" class="img-responsive img-rounded"alt=" Men in black" align="middle">
+                <button onclick= "callInputForm()" type="button" name="Men in black">Men in black</button>
+              </div>
+              <div class="col-md-3">
+                <img src="https://resizing.flixster.com/IaXbRF4gIPh9jireK_4VCPNfdKc=/300x0/v2/https://flxt.tmsimg.com/assets/p13154619_p_v13_aa.jpg"class="img-responsive img-rounded" alt=" The Secret Life of Pets 2" align="middle">
+                <button onclick= "callInputForm()" type="button" name="The Secret Life of Pets 2">The Secret Life of Pets 2</button>
+              </div>
+              <div class="col-md-2">
+                <img src="https://resizing.flixster.com/IaXbRF4gIPh9jireK_4VCPNfdKc=/300x0/v2/https://flxt.tmsimg.com/NowShowing/178351/178351_ab.jpg"class="img-responsive img-rounded" alt=" Aladdin" align="middle">
+                <button onclick= "callInputForm()" type="button" name="Aladdin">Aladdin</button>
+              </div>
+              <div class="col-md-3">
+                <img src="https://resizing.flixster.com/IaXbRF4gIPh9jireK_4VCPNfdKc=/300x0/v2/https://flxt.tmsimg.com/assets/p16058879_p_v8_ab.jpg"class="img-responsive img-rounded" alt=" Rocketman" align="middle">
+                <button onclick= "callInputForm()" type="button" name="Rocketman">Rocketman</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br><br><br>
+        <div class="panel panel-info">
+            <div class="panel-heading">
+              <h2 class="panel-title">OPENING THIS WEEK</h2>
+            </div>
+            <div class="panel-body">
+              <div class="row">
+              <div class="col-md-3">
+                <img src="https://resizing.flixster.com/IaXbRF4gIPh9jireK_4VCPNfdKc=/300x0/v2/https://flxt.tmsimg.com/assets/p16286009_p_v13_ac.jpg" alt=" Child's Play">
+                <button onclick= "callInputForm()" type="button" name="Child's Play">Child's Play</button>
+              </div>
+              <div class="col-md-3">
+                <img src="https://resizing.flixster.com/IaXbRF4gIPh9jireK_4VCPNfdKc=/300x0/v2/https://flxt.tmsimg.com/assets/p12004128_p_v13_ab.jpg" alt=" Toy Story 4">
+                <button onclick= "callInputForm()"type="button" name="Toy Story 4">Toy Story 4</button>
+              </div>
+              <div class="col-md-3">
+                <img src="https://resizing.flixster.com/IaXbRF4gIPh9jireK_4VCPNfdKc=/300x0/v2/https://flxt.tmsimg.com/assets/p16808503_p_v13_aa.jpg" alt=" Anna">
+                <button onclick= "callInputForm()"type="button" name="Anna">Anna</button>
+              </div>
+              <div class="col-md-3">
+                <img src="https://resizing.flixster.com/IaXbRF4gIPh9jireK_4VCPNfdKc=/300x0/v2/https://flxt.tmsimg.com/assets/p16615536_p_v12_ac.jpg" alt=" Leto">
+                <button onclick= "callInputForm()"type="button" name="Leto">Leto</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br><br><br>
+        <div class="panel panel-info">
+            <div class="panel-heading">
+              <h2 class="panel-title">COMING SOON</h2>
+            </div>
+            <div class="panel-body">
+              <div class="row">
+              <div class="col-md-3">
+                <img src="https://resizing.flixster.com/IaXbRF4gIPh9jireK_4VCPNfdKc=/300x0/v2/https://flxt.tmsimg.com/assets/p16711282_p_v13_aa.jpg" alt=" The Chambermaid">
+                <button onclick= "callInputForm()"type="button" name="The Chambermaid">The Chambermaid</button>
+              </div>
+              <div class="col-md-3">
+                <img src="https://resizing.flixster.com/IaXbRF4gIPh9jireK_4VCPNfdKc=/300x0/v2/https://flxt.tmsimg.com/assets/p15465632_p_v13_ad.jpg" alt=" Annabelle Comes Home">
+                <button onclick= "callInputForm()" type="button" name="Annabelle Comes Home">Annabelle Comes Home</button>
+              </div>
+              <div class="col-md-3">
+                <img src="https://resizing.flixster.com/IaXbRF4gIPh9jireK_4VCPNfdKc=/300x0/v2/https://flxt.tmsimg.com/assets/p16504809_p_v13_aa.jpg" alt=" Ophelia">
+                <button onclick= "callInputForm()"type="button" name="Ophelia">Ophelia</button>
+              </div>
+              <div class="col-md-3">
+                <img src="https://resizing.flixster.com/IaXbRF4gIPh9jireK_4VCPNfdKc=/300x0/v2/https://flxt.tmsimg.com/assets/p16522218_p_v13_aa.jpg" alt=" Maiden">
+                <button onclick= "callInputForm()"type="button" name="Maiden">Maiden</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br><br>
+      <form id="userInfo">
+        <h3>Fill out the Form Please</h3>
+        <div class="movieName">
+          <h6>Selected Movie: </h6>
+          <ul>
+
+          </ul>
+        </div>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text"  class="form-control" id="name">
+        </div>
+        <h3>Pick your age group</h3>
+        <div class="radio">
+          <label>
+            <input type="radio" name="age" value="junior" checked>
+            Junior
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="age" value="adult">
+            Adult
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="age" value="senior">
+            Senior
+          </label>
+        </div>
+        <h3>Pick the time</h3>
+        <div class="radio">
+          <label>
+            <input type="radio" name="time" value="morning" checked>
+            10am
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="time" value="afternoon">
+            2pm
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="time" value="evening">
+            6pm
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="time" value="late">
+            11pm
+          </label>
+        </div>
+         <button type="submit" class="btn-primary">Book the Ticket</button>
+      </form>
+    </div>
+  </body>
+  </html>
