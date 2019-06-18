@@ -11,6 +11,6 @@ img{
   justify-content: center;
 }
 
-#userInfo{
+#userInfo, .show-purchaseTicket, .houseFull{
   display: none;
 }
